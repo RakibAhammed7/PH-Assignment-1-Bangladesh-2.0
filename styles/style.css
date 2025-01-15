@@ -24,7 +24,7 @@
     border-radius: 50%; 
 }
 body {
-    background-color: #ffffff; /* Light green background */
+    background-color: #f0f0f0; 
 }
 
 .banner {
@@ -103,7 +103,7 @@ body {
 
 .pillars {
     text-align: center;
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 50px; 
   }
   
   .pillars h2 {
@@ -114,8 +114,8 @@ body {
   
   .pillar {
     display: inline-block;
-    width: 280px; /* Adjust width as needed */
-    margin: 32px 20px;
+    width: 280px; 
+    margin: 32px 32px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
@@ -124,17 +124,23 @@ body {
   }
   
   .pillar img {
-    width: 65px; /* Adjust width as needed */
+    width: 65px; 
     margin-bottom: 15px;
   }
 
 
-  .about h2 {
-    width: 1500px;
-    margin: 32px 30px;
-
-  }
   
+  .about h2 {
+    max-width: 1500px;
+    margin: 32px 72px;
+    font-size: 2rem;
+  }
+
+  .about-paragraph{
+    width: 1500px;
+    margin: 32px 72px;
+  }
+
 
 
   .card-section {
@@ -143,13 +149,16 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    margin-left: 32px;
+    
 }
 
 
 .card {
   width: 1500px;
       padding: 20px;
-    border-radius: 8px;
+    border-radius: 16px;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -182,20 +191,20 @@ body {
 }
 
 .card button:hover {
-    background-color: #035c39; /* Darker shade on hover */
+    background-color: #035c39; 
 }
 
-/* Card-specific background colors */
+
 .blue-card {
-    background-color: #e6f1ff; /* Light blue background */
+    background-color: #e6f1ff; 
 }
 
 .green-card {
-    background-color: #e6f7e6; /* Light green background */
+    background-color: #e6f7e6; 
 }
 
 .yellow-card {
-    background-color: #fff7e6; /* Light yellow background */
+    background-color: #fff7e6; 
 }
 
 .learn-more-1 {
@@ -219,7 +228,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.259);
   max-width: 1600px;
-  margin: 10px 50px;
+  margin: 10px 70px 30px 70px;
 }
 
 .quote {
@@ -319,7 +328,7 @@ h1 {
 
 
  
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -328,7 +337,7 @@ h1 {
 
 
 
-/* News Cards Container */
+
 .news {
   display: flex;
   flex-wrap: wrap;
@@ -336,7 +345,7 @@ h1 {
   justify-content: space-between;
 }
 
-/* News Card */
+
 .news-card {
   background-color: #fff;
   border-radius: 8px;
@@ -358,13 +367,13 @@ h1 {
 }
 
 .image-container {
-  width: 160px; /* Container width matches the image size */
-  height: 45px; /* Container height matches the image size */
+  width: 160px; 
+  height: 45px; 
 }
 
 .image-container img {
-  width: 160px; /* Set exact image width */
-  height: 45px; /* Set exact image height */
+  width: 160px; 
+  height: 45px; 
 }
 
 
@@ -402,7 +411,7 @@ h1 {
 
 
 .donate-section {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #f0f0f0; 
   padding: 50px 0;
   text-align: center;
 }
@@ -414,15 +423,15 @@ h1 {
 
 .donate-section p {
   color: #0606067d;
-  max-width: 900px; /* Adjust as needed */
+  max-width: 900px; 
   margin: 0 auto 30px; 
 }
 
 
 
 .donate-button {
-  background-color: #ffffff; /* Default background */
-  color: #000000df; /* Default text color */
+  background-color: #ffffff; 
+  color: #000000df; 
   padding: 10px;
   border: none;
   border-radius: 16px;
@@ -432,14 +441,14 @@ h1 {
   font-size: 40px;
   margin: 0 24px;
   box-shadow: #00000018 0px 4px 6px;
-  outline: none; /* Remove default browser outline */
+  outline: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .donate-button:focus {
-  background-color: #C6E4D6; /* Selected background color */
-  color: #243b2c; /* Selected text color */
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Glow effect for selection */
+  background-color: #C6E4D6; 
+  color: #243b2c; 
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); 
 }
 
 
@@ -458,7 +467,7 @@ h1 {
 }
 
 .done-now-btn {
-  background-color: #006A50; /* Green color */
+  background-color: #006A50; 
   color: #ffffff;
   padding: 15px 30px;
   border: none;
@@ -476,7 +485,7 @@ h1 {
 
 
 .newsletter {
-  background-color: #C6E4D6; /* Green background color */
+  background-color: #C6E4D6; 
   width: 1280px;
   height: 395px;
   padding: 30px; 
@@ -521,7 +530,7 @@ form input[type="email"] {
 }
 
 form button {
-  background-color: #006A50; /* Green color */
+  background-color: #006A50; 
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -533,39 +542,33 @@ form button {
 
 .promise {
   color: #1e1d1d;
+  top: 50px;
   font-size: 16px;
-margin-bottom: auto;  
-position: relative;
+  position: relative;
   animation: fadeSlideUp 2s ease-in-out;
 }
 
-/* Keyframes for animation */
 @keyframes fadeSlideUp {
   0% {
     opacity: 0;
-    transform: translateY(20px); /* Start slightly lower */
+    transform: translateY(20px); 
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* End at original position */
+    transform: translateY(0); 
   }
 }
 
-/* Add some visual flair with an underline hover effect */
-.promise:hover {
-  text-decoration: underline;
-  text-decoration-color: #4CAF50; /* Green underline */
-  text-decoration-thickness: 24px;
-}
+
 
 
 
 .footer-bar {
-  background-color: #F1F1F3; /* Updated background color */
-  height: 226px; /* Set height */
+  background-color: #F1F1F3; 
+  height: 226px; 
   padding: 15px 0;
   text-align: center;
-  border-top: 1px solid #ccc; /* Optional: Add a thin border */
+  border-top: 1px solid #ccc; /
 }
 
 .f-container {
@@ -577,14 +580,14 @@ position: relative;
   margin: 50px auto;
   font-size: 32px;
   color: #0e0e0e;
-  width: 222px; /* Set width */
-  height: 38px; /* Set height */
+  width: 222px; 
+  height: 38px; 
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 23px; /* Set gap between icons */
+  gap: 23px; 
   margin-bottom: 50px;
 }
 
@@ -593,6 +596,6 @@ position: relative;
 }
 
 .social-icons img {
-  width: 24px; /* Set width */
-  height: 24px; /* Set height */
+  width: 24px; 
+  height: 24px; 
 }
